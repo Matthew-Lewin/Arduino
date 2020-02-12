@@ -1,0 +1,10 @@
+# This ignores everything except for the raw arduino files 👍
+# Ignore everything..
+*
+
+# ...except...
+!.gitignore
+!*.ino
+
+# Keep git from ignoring .ino files in subdirectories
+!*/
